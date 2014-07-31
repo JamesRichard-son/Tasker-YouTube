@@ -1,6 +1,8 @@
 cd sdcard/Tasker/youtube
-cat results.txt | sed 's/<name>/@uthor@\n/g' | sed 's/<\|>/\n/g' | sed "s;'text/html' href=';£>£\n;g"> processed.txt
-cat processed.txt | sed -n '/title type=/{n;p;}' | sort -u | sed '$d' > titles.txt
+query=$(echo %youtubequery | sed -e 's/ /+/g') 
+wget gdata.youtube.com/feeds/api/videos?q=${query} -q -O - | sed 's/<name>/@uthor@\n/g' | sed 's/<\|>/\n/g' | sed "s;'text/html' href=';£>£\n;g"> processed.txt
+echo $res > query.txt
+cat processed.txt | sed -n '/title type=/{n;p;}' | sed -n 'g;n;p' > titles.txt
 cat processed.txt | sed -n '/content type=/{n;p;}' > content.txt
 cat processed.txt | sed -n '/£>£/{n;p;}' | sed -n 'g;n;p' > links.txt
-cat processed.txt | sed -n '/@uthor@/{n;p;}' | sed -n '2,$p' > authors.txt
+cat processed.txt | sed -n '/@uthor@/{n;p;}' | sed -n '2,$p' > authorn.txt

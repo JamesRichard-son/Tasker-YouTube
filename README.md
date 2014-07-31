@@ -7,9 +7,9 @@ Shell script to process all the relevant information out of the data returned by
 
 place the script in a Tasker task under Scripts - Run Script - Command
 
-Send a request HTTP get request (under net in Tasker) to http://gdata.youtube/feeds/api/videos?q=TYPE+YOUR+SEARCH+QUERY+HERE+WITH+SPACES+REPLACED+WITH+PLUS+SIGNS
+Save the string you want to search for in a variable named %youtubequery
 
-Then save the result into a file called results.txt in the Tasker folder sdcard/Tasker/youtube
+You may need to make a file called results.txt in the Tasker folder sdcard/Tasker/youtube
 
 Next run the script and you will have some new files call authors.txt, titles.txt, content.txt and links.txt
 

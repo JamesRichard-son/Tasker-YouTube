@@ -1,8 +1,6 @@
 Tasker-YouTube
 ==============
 
-DISCLAIMER: THIS HAS NOT BEEN FULLY TESTED
-
 Shell script to process all the relevant information out of the data returned by the YouTube API making it easier to mange with Tasker.
 
 place the script in a Tasker task under Scripts - Run Script - Command

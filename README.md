@@ -9,6 +9,6 @@ Save the string you want to search for in a variable named %youtubequery this ca
 
 You may need to make a file called results.txt in the Tasker folder sdcard/Tasker/youtube
 
-Next run the script and you will have some new files call authors.txt, titles.txt, content.txt, links.txt and views.txt
+Next run the script and you will have some new files call authors.txt, titles.txt, content.txt, links.txt, duration.txt images.txt and views.txt
 
 To get the first result YouTube returned make a Task to read line 1 of each file or for the second result read line 2 and so on.

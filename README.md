@@ -13,4 +13,4 @@ Next run the script and you will have some new files call authors.txt, titles.tx
 
 To get the first result YouTube returned make a Task to read line 1 of each file or for the second result read line 2 and so on.
 
-I have also included my profile for this so if you would rathe import it just download the xml ther is a scene to go with it but if you would rathe not use it just remove the refrence to it at the bottom of the profile one you have imported it. 
+I have also included my profile for this so if you would rathe import it just download the xml ther is a scene to go with it but if you would rathe not use it just remove the refrence to it at the bottom of the profile once you have imported it. 

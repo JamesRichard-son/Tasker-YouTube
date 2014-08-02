@@ -1,0 +1,403 @@
+<TaskerData sr="" dvi="1" tv="4.4u1m">
+	<dmetric>1080.0,1776.0</dmetric>
+	<Scene sr="sceneYoutube Results">
+		<cdate>1406585996598</cdate>
+		<edate>1406954295034</edate>
+		<heightLand>768</heightLand>
+		<heightPort>1776</heightPort>
+		<nme>Youtube Results</nme>
+		<widthLand>1080</widthLand>
+		<widthPort>1080</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>52,0,975,250,50,27,943,218</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">%Titles(1)</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>52,1425,975,125,50,292,943,194</geom>
+			<Str sr="arg0" ve="3">Author</Str>
+			<Str sr="arg1" ve="3">%Author</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>52,1350,500,75,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Views</Str>
+			<Str sr="arg1" ve="3">%Views</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>52,800,975,475,50,507,943,225</geom>
+			<Str sr="arg0" ve="3">Content</Str>
+			<Str sr="arg1" ve="3">%Content</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>11</clickTask>
+			<flags>4</flags>
+			<geom>727,1550,325,175,727,593,325,175</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">Next</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>12</clickTask>
+			<flags>4</flags>
+			<geom>27,1550,325,175,27,593,325,175</geom>
+			<Str sr="arg0" ve="3">Button2</Str>
+			<Str sr="arg1" ve="3">Previous</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements5" ve="3">
+			<clickTask>14</clickTask>
+			<flags>4</flags>
+			<geom>377,1550,327,175,377,593,325,175</geom>
+			<Str sr="arg0" ve="3">Button3</Str>
+			<Str sr="arg1" ve="3">Cast</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ImageElement sr="elements6" ve="2">
+			<flags>4</flags>
+			<geom>52,250,975,550,52,268,975,500</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.externalstorage.documents/document/primary%3ATasker%2Fyoutube%2F0.jpg</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>577,1350,452,75,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Duration</Str>
+			<Str sr="arg1" ve="3">%Duration</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>577,1275,452,75,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">Duration</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>52,1275,500,75,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text6</Str>
+			<Str sr="arg1" ve="3">Views</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">Youtube Results</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task11">
+		<cdate>1406846801436</cdate>
+		<edate>1406846801436</edate>
+		<id>11</id>
+		<pri>12</pri>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Counter</Str>
+			<Str sr="arg1" ve="3">%Counter + 1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Counter</lhs>
+					<op>3</op>
+					<rhs>%CounterOld</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>66</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Image1</Str>
+			<Img sr="arg2" ve="2">
+				<var>%Img</var>
+			</Img>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CounterOld</Str>
+			<Str sr="arg1" ve="3">%Counter</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>406</code>
+			<Str sr="arg0" ve="3">Tasker/youtube/0.jpg</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>118</code>
+			<Str sr="arg0" ve="3">%Img(%Counter)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">image/jpeg</Str>
+			<Str sr="arg7" ve="3">Tasker/youtube/0.jpg</Str>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Duration</Str>
+			<Str sr="arg1" ve="3">%Duration(%Counter) / 60</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Titles(%Counter)</Str>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Content</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Content(%Counter)</Str>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Author</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Author(%Counter)</Str>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Duration</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Duration(%Counter)</Str>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Views</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Views(%Counter)</Str>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1406846864619</cdate>
+		<edate>1406846864619</edate>
+		<id>12</id>
+		<pri>12</pri>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Counter</Str>
+			<Str sr="arg1" ve="3">%Counter - 1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Counter</lhs>
+					<op>3</op>
+					<rhs>%CounterOld</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>66</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Image1</Str>
+			<Img sr="arg2" ve="2">
+				<var>%Img</var>
+			</Img>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CounterOld</Str>
+			<Str sr="arg1" ve="3">%Counter</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>406</code>
+			<Str sr="arg0" ve="3">Tasker/youtube/0.jpg</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>118</code>
+			<Str sr="arg0" ve="3">%Img(%Counter)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">image/jpeg</Str>
+			<Str sr="arg7" ve="3">Tasker/youtube/0.jpg</Str>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Duration</Str>
+			<Str sr="arg1" ve="3">%Duration(%Counter) / 60</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Titles(%Counter)</Str>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Content</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Content(%Counter)</Str>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Author</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Author(%Counter)</Str>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Duration</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Duration(%Counter)</Str>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Youtube Results</Str>
+			<Str sr="arg1" ve="3">Views</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%Views(%Counter)</Str>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1406849062770</cdate>
+		<edate>1406849062770</edate>
+		<id>14</id>
+		<Action sr="act0" ve="6">
+			<code>415</code>
+			<Str sr="arg0" ve="3">Tasker/youtube/links.txt</Str>
+			<Str sr="arg1" ve="3">%Counter</Str>
+			<Str sr="arg2" ve="3">%link</Str>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>17260</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BestGuessType>receiverVideoElement</BestGuessType>
+					<BestGuessType-type>java.lang.String</BestGuessType-type>
+					<BestGuessValue>%link</BestGuessValue>
+					<BestGuessValue-type>java.lang.String</BestGuessValue-type>
+					<CastDevice>HAASUDHASDHH</CastDevice>
+					<CastDevice-type>java.lang.String</CastDevice-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Cast Device: First Available
+Value to Cast: %link
+Content Type: Video</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid CastDevice BestGuessType BestGuessValue </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>fefb2738-093a-4f5c-9091-82f7065839bb</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autocast.intent.IntentCastBestGuess</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autocast</Str>
+			<Str sr="arg2" ve="3">AutoCast Best Guess</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
